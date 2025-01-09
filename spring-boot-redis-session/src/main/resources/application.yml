@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-boot-redis-session
+server:
+  port: 8089
+  servlet:
+    context-path: /demo
+logging:
+  level:
+    io:
+      lettuce:
+        core: DEBUG
