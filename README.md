@@ -7,7 +7,7 @@
 
 排行榜应用（Zset） 例如：月度销量榜单、商品按时间的上新排行榜
 
-分布式会话（ @EnableRedisHttpSession注解）服务，例如：当应用增多相对复杂的系统中，一般都会搭建以Redis等内存数据库为中心的session服务，session不再由容器管理，而是由session服务及内存数据库管理  
+分布式会话（ @EnableRedisHttpSession注解）服务，例如：当应用增多相对复杂的系统中，一般都会搭建以Redis等内存数据库为中心的session服务，session不再由容器管理，而是由session服务及内存数据库管理，以及token的储存。  
 
 2、  参考以下链接，大致相同 ；src的test文件夹下不同
 
