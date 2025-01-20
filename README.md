@@ -3,7 +3,7 @@
 
 分布式锁（redissonClient的tryLock） 场景 如：扣减库存等
 
-统计签到(计数器（带时间）、setBit或者increment)， increment 的场景 例如：  浏览量、视频网站视频的播放数、验证码发送限制 ，点赞，关注； setBit的场景  用于统计一个月、一周或者一年的较多。
+统计签到(计数器（带时间）、setBit（Bitmap）或者increment)， increment 的场景 例如：  浏览量、视频网站视频的播放数、验证码发送限制 ，点赞，关注； setBit的场景  用于统计一个月、一周或者一年的较多。
 
 排行榜应用（Zset） 例如：月度销量榜单、商品按时间的上新排行榜
 
